@@ -35,7 +35,7 @@ public class CarbonFootprint extends Application {
     public static void main(String[] args) {
         
         }
-    public static double calculateFood(){
+    public static void calculateFood(){
         Scanner input = new Scanner (System.in);
         String food;
         double quantity;
@@ -55,92 +55,78 @@ public class CarbonFootprint extends Application {
         {
           carbonOutput = 27 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("cheese"))
         {
           carbonOutput = 13.5 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("pork"))
         {
           carbonOutput = 12.1 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("turkey"))
         {
           carbonOutput = 10.9 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("chicken"))
         {
           carbonOutput = 6.9 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("tuna"))
         {
           carbonOutput = 6.1 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("eggs") || food.equals("egg"))
         {
           carbonOutput = 4.8 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("potatoes") || food.equals("potato"))
         {
           carbonOutput = 2.9 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("rice"))
         {
           carbonOutput = 2.7 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("nuts"))
         {
           carbonOutput = 2.3 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("beans") || food.equals("bean") || food.equals("tofu"))
         {
           carbonOutput = 2 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("vegetables") || food.equals("vegetable"))
         {
           carbonOutput = 2 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("milk"))
         {
           carbonOutput = 1.9 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("fruit"))
         {
           carbonOutput = 1.1 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
         }
         if (food.equals("lentil") || food.equals("lentils"))
         {
           carbonOutput = 0.9 * quantity;
           System.out.println("Your carbon footprint is " + carbonOutput + " kilos.");
-          ;
-            
+        }
     }
     
 }
+    
